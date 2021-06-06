@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444965FB266D0F4A005A97CC /* RecipiesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444965FA266D0F4A005A97CC /* RecipiesListViewController.swift */; };
+		444965FE266D0F7E005A97CC /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444965FD266D0F7E005A97CC /* FavouritesViewController.swift */; };
 		F5AE398B23BA6C4400EE7A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE398A23BA6C4400EE7A3F /* AppDelegate.swift */; };
 		F5AE398D23BA6C4400EE7A3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE398C23BA6C4400EE7A3F /* SceneDelegate.swift */; };
 		F5AE399423BA6C4400EE7A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AE399223BA6C4400EE7A3F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444965FA266D0F4A005A97CC /* RecipiesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipiesListViewController.swift; sourceTree = "<group>"; };
+		444965FD266D0F7E005A97CC /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		F5AE398723BA6C4400EE7A3F /* BurgerRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AE398A23BA6C4400EE7A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AE398C23BA6C4400EE7A3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		F5AE398923BA6C4400EE7A3F /* BurgerRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				444965FA266D0F4A005A97CC /* RecipiesListViewController.swift */,
+				444965FD266D0F7E005A97CC /* FavouritesViewController.swift */,
 				F5AE398A23BA6C4400EE7A3F /* AppDelegate.swift */,
 				F5AE398C23BA6C4400EE7A3F /* SceneDelegate.swift */,
 				F5AE399223BA6C4400EE7A3F /* Main.storyboard */,
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444965FE266D0F7E005A97CC /* FavouritesViewController.swift in Sources */,
 				F5AE398B23BA6C4400EE7A3F /* AppDelegate.swift in Sources */,
 				F5AE398D23BA6C4400EE7A3F /* SceneDelegate.swift in Sources */,
+				444965FB266D0F4A005A97CC /* RecipiesListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
